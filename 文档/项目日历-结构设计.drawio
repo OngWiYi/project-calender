@@ -1,0 +1,70 @@
+<mxfile host="Electron" modified="2023-10-20T16:14:37.578Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.3 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="Rx_JN4LGVRC9m7dfhy_1" version="22.0.3" type="device">
+  <diagram name="初稿" id="iFlY95LYN-kNisT9wjKA">
+    <mxGraphModel dx="1050" dy="671" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hnfw8KUOV4YOf9TOQRPK-17" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="30" y="20" width="800" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="hnfw8KUOV4YOf9TOQRPK-3" value="云端" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;shape=mxgraph.mscae.enterprise.internet;" vertex="1" parent="1">
+          <mxGeometry x="408" y="170" width="354.18" height="219.6" as="geometry" />
+        </mxCell>
+        <mxCell id="hnfw8KUOV4YOf9TOQRPK-5" value="资料库" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;shape=mxgraph.mscae.enterprise.database_generic" vertex="1" parent="1">
+          <mxGeometry x="608" y="274.8" width="59.2" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hnfw8KUOV4YOf9TOQRPK-6" value="Windows客户端" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;shape=mxgraph.mscae.enterprise.application;fontSize=16;fillColor=#080808;" vertex="1" parent="1">
+          <mxGeometry x="208" y="194.8" width="66.18" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="hnfw8KUOV4YOf9TOQRPK-7" value="手机客户端" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#080808;shape=mxgraph.azure.mobile;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="218" y="339.8" width="35" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hnfw8KUOV4YOf9TOQRPK-9" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;startArrow=block;startFill=1;" edge="1" parent="1" source="hnfw8KUOV4YOf9TOQRPK-8" target="hnfw8KUOV4YOf9TOQRPK-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hnfw8KUOV4YOf9TOQRPK-8" value="后端" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;shape=mxgraph.mscae.enterprise.application_server;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="478" y="289.8" width="43" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hnfw8KUOV4YOf9TOQRPK-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;startArrow=block;startFill=1;" edge="1" parent="1" source="hnfw8KUOV4YOf9TOQRPK-6" target="hnfw8KUOV4YOf9TOQRPK-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="376" y="217.8" />
+              <mxPoint x="376" y="314.8" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hnfw8KUOV4YOf9TOQRPK-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;startArrow=block;startFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hnfw8KUOV4YOf9TOQRPK-7" target="hnfw8KUOV4YOf9TOQRPK-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="468" y="314.8" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="378" y="369.8" />
+              <mxPoint x="378" y="314.8" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hnfw8KUOV4YOf9TOQRPK-13" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="88" y="249.8" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hnfw8KUOV4YOf9TOQRPK-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;startArrow=block;startFill=1;" edge="1" parent="1" source="hnfw8KUOV4YOf9TOQRPK-13" target="hnfw8KUOV4YOf9TOQRPK-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="158" y="279.8" />
+              <mxPoint x="158" y="217.8" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hnfw8KUOV4YOf9TOQRPK-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.08;entryY=0.652;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;startArrow=block;startFill=1;" edge="1" parent="1" source="hnfw8KUOV4YOf9TOQRPK-13" target="hnfw8KUOV4YOf9TOQRPK-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="158" y="279.8" />
+              <mxPoint x="158" y="372.8" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hnfw8KUOV4YOf9TOQRPK-16" value="&lt;h1&gt;项目日历系统-结构设计初稿&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="200" y="50" width="440" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
